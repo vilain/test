@@ -2,7 +2,7 @@ package dominio;
 
 public class Espera {
 
-	private int numero;
+	private int numeroDaSenhaDeEspera;
 	private int horarioInicial;
 	
 	public Espera (int numero){
