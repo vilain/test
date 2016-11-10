@@ -5,6 +5,8 @@ public class Espera {
 	private int numeroDaSenhaDeEspera;
 	private int horarioInicial;
 	
+	private int numero;
+	
 	public Espera (int numero){
 		this.numero = numero;
 	}
