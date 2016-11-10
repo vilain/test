@@ -6,6 +6,7 @@ public class Espera {
 	private int horarioInicial;
 	
 	private int numero;
+	private int dia;
 	
 	public Espera (int numero){
 		this.numero = numero;
