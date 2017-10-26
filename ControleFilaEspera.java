@@ -23,8 +23,7 @@ public class ControleFilaEspera {
 	
 	public void pegaFichaNormal(){
 		this.numeroFila++;
-		EsperaNormal umaEspera = new EsperaNormal(this.numeroFila);
-		this.filaNormal.add(umaEspera);
+		this.filaNormal.add(new EsperaNormal(this.numeroFila));
 	}
 
 	
