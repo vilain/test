@@ -29,8 +29,7 @@ public class ControleFilaEspera {
 	
 	public void pegaFichaPrioridade(){
 		this.numeroFila++;
-		EsperaPrioridade umaEspera = new EsperaPrioridade(this.numeroFila);
-		this.filaPrioridade.add(umaEspera);
+		this.filaPrioridade.add(new EsperaPrioridade(this.numeroFila));
 		
 		
 	}
