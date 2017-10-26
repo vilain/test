@@ -12,7 +12,7 @@ public class Espera {
 		this.numero = numero;
 	}
 	
-	public int retornaNumero (){
+	public int getNumero (){
 		return this.numero;
 	}
 	
